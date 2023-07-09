@@ -1,0 +1,314 @@
+body {
+  margin : 0;
+}
+.top-container {
+  background-color: #fff;
+  width: 100%;
+  padding-top: 10vh
+}
+
+.right-bird {
+  width: 15%;
+  margin-left: 70%;
+}
+
+.Name {
+  display: block;
+  font-family: 'Sacramento', cursive;
+  font-size: 10rem;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  line-height: 2;
+  color: #4ab19a;
+}
+
+.Description {
+  display: block;
+  font-family: 'Mali', cursive;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin: 0;
+  text-align: center;
+  color: #6eb69b;
+}
+
+.left-plane {
+  width: 35%;
+  margin-left: 15%;
+}
+
+.tree {
+  width: 50%;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+
+.about-container {
+  width: 100%;
+  display: block;
+}
+
+.boy {
+  display: block;
+  width: 10%;
+  margin: 10vh auto 5vh auto;
+}
+
+.hi {
+  display: block;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 4vh;
+  color: #47b29a;
+}
+
+.about-para-envelope {
+  display: block;
+  padding: 0 30% 0 30%;
+}
+
+.about-para {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-family: 'Gulzar', serif;
+  font-size: 2.7vh;
+  margin: 0;
+  line-height: 1.8;
+  color: #5e5e5e;
+}
+
+
+.projects-container{
+  margin-bottom: 10vh;
+}
+
+.project-img {
+  width: 50%;
+  margin: 0 25%;
+  opacity: 20%;
+  background-color: green;
+}
+
+.carousel-head {
+  font-size: 2rem;
+}
+
+.carousel-text {
+  font-size: 1.5rem;
+}
+
+
+.skill-container {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+.heading {
+  display: block;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vh;
+  color: #318d78;
+  margin-bottom: 7vh;
+}
+
+.skill-data{
+  font-family: 'Gulzar', serif;
+  font-size: 2.7vh;
+  color: #5e5e5e;
+}
+
+.star-img {
+  height: 2.5vh;
+}
+
+
+.education-container {
+  width: 100%;
+  display: block;
+  margin-bottom: 10vh;
+}
+
+.college-envelope {
+  display:block;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.college-img {
+  width: 80%;
+}
+
+.college-info {
+  display: block;
+}
+
+.big {
+  display: inline;
+  font-family: 'Gulzar', serif;
+  font-size: 3vh;
+  line-height: 1.8;
+  color: #5e5e5e;
+  font-weight: bold;
+}
+
+.medium {
+  display: inline;
+  font-family: 'Gulzar', serif;
+  font-size: 2.7vh;
+  line-height: 1.8;
+  color: #5e5e5e;
+}
+
+.small {
+  display: inline;
+  font-family: 'Gulzar', serif;
+  font-size: 2.4vh;
+  line-height: 1.8;
+  color: #7b7b7b;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.school-img{
+  width: 100%;
+  margin: auto;
+}
+
+.education-row {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+
+
+.bottom-container {
+  width: 100%;
+  display: block;
+  height: 35vh;
+  background-color: #c5ded7;
+}
+
+.contact-me {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5vh;
+  color: #318d78;
+  position: relative;
+  top: 1em;
+}
+
+.links {
+  width: 100%;
+  text-align: center;
+  margin-top: 12vh;
+}
+
+.contacts {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #47b29a;
+  font-size: 2.5vh;
+  font-weight: bold;
+  display: inline;
+  top: 3em;
+  text-decoration: underline;
+  margin: 0 5%;
+}
+
+.rule {
+  display: block;
+  border-top: dotted;
+  width: 5%;
+  border-width: 0.5vh;
+  margin: 8vh auto 8vh auto;
+  border-color: #5e5e5e;
+}
+
+
+@media (max-width: 1068px){
+  .right-bird {
+    width: 25%;
+    margin-left: 65%;
+  }
+
+  .Name {
+    font-size: 7rem;
+  }
+
+  .Description {
+    font-size: 1.5rem;
+  }
+
+  .left-plane {
+    width: 25%;
+    margin-left: 10%;
+  }
+
+  .tree{
+    width: 85%;
+  }
+
+  .boy {
+    width: 20%;
+  }
+
+  .about-para-envelope{
+    padding: 0 5% 0 5%;
+  }
+
+  .project-img {
+    width: 90%;
+    margin: 0 5%;
+  }
+
+  .college-img {
+    margin-top: 10%;
+  }
+
+  .school-img {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 1400px) and (min-width: 1069px){
+  .right-bird {
+    width: 20%;
+    margin-left: 70%;
+  }
+
+  .Name {
+    font-size: 8.5rem;
+  }
+
+  .Description {
+    font-size: 2rem;
+  }
+
+  .left-plane {
+    width: 20%;
+    margin-left: 10%;
+  }
+
+  .tree{
+    width: 65%;
+  }
+
+  .boy {
+    width: 15%;
+  }
+
+  .project-img {
+    width: 70%;
+    margin: 0 15%;
+  }
+
+  .about-para-envelope{
+    padding: 0 20% 0 20%;
+  }
+}
